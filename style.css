@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: ghostwhite;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+.header {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* display: flex; */
+  margin: 2rem 10rem;
+}
+
+.headerparaf {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* display: flex; */
+  width: 22rem;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+span {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 5rem;
+  position: relative;
+}
+
+.images img {
+  width: 250px;
+  border-radius: 0.3rem;
+  box-shadow: 0px 0px 10px black;
+  margin-left: 10rem;
+}
+
+.img2 {
+  margin-top: 5rem;
+}
+.img5 {
+  margin-top: 5rem;
+}
+
+#name {
+  margin-left: 10rem;
+  margin-top: 1rem;
+}
+
+.statu {
+  transform: rotate(90deg);
+  font-size: 0.7rem;
+}
+
+.pro {
+  position: absolute;
+  left: 24rem;
+  top: 3rem;
+}
+
+.art {
+  position: absolute;
+  left: 50rem;
+  top: 8rem;
+}
+
+.td {
+  position: absolute;
+  left: 25rem;
+  top: 32rem;
+}
+
+.ux {
+  position: absolute;
+  left: 76rem;
+  top: 2.5rem;
+}
+
+.dev {
+  position: absolute;
+  left: 50.5rem;
+  top: 37.5rem;
+}
+.dev2 {
+  position: absolute;
+  left: 76rem;
+  top: 32rem;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+  .container {
+    margin-right: 10rem;
+  }
+
+  .main {
+    display: block;
+  }
+
+  .header {
+    text-align: center;
+  }
+  .headerparaf {
+    text-align: left;
+    width: 41rem;
+    margin-left: 15rem;
+  }
+  .images {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .dev {
+    left: 25rem;
+    top: 62.5rem;
+  }
+
+  .img4 {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+  }
+
+  .ux {
+    left: 50.2rem;
+    top: 37.5rem;
+  }
+
+  .img5 {
+    margin-top: -5rem;
+  }
+
+  .dev2 {
+    left: 50.5rem;
+    top: 67rem;
+  }
+}
